@@ -17,6 +17,9 @@ if [ "$POINTER" == 1 ]; then
 # DO NOT CHANGE
 POINTER=0
 EOF
+
+  # Send if modified
+  git add "$LOCAL_POINTER"
 fi
 
 exit 0
