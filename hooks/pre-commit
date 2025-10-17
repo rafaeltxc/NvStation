@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Get absolute path to pointer.sh inside repository
+LOCAL_POINTER="$(git rev-parse --show-toplevel)/scripts/pointer.sh"
+
+# Check if pointer.sh exists
+if [ ! -f "$LOCAL_POINTER" ]; then
+  echo "Error: Missing file pointer.sh from scripts directory."
+  exit 1
+fi
+
+source "$LOCAL_POINTER"
+
+# Reset pointer configurations if changed
+if [ "$POINTER" == 1 ]; then
+  cat > "$LOCAL_POINTER" <<EOF
+# DO NOT CHANGE
+POINTER=0
+EOF
+fi
+
+exit 0
