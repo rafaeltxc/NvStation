@@ -184,7 +184,7 @@ Clone the repo:
 ```
 
 git clone https://github.com/rafaeltxc/neovim.git
-cd Neovim
+cd neovim
 
 ```
 
