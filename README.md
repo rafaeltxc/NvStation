@@ -210,4 +210,19 @@ Lazy.nvim will install plugins. Mason will ensure required tools are present. Th
 
 ### Support
 
-This configuration was written for linux (tested on Arch specifically), and should work fine with any distro. It’s not fully self-sufficient for handling other OSes like Windows or MacOS. Although, setting it up should be pretty straightforward, mostly fixing system paths to match the current OS pattern.
+This configuration was written for linux (tested on Arch specifically), and should work fine with any distro. It’s not fully self-sufficient for handling other OSes like Windows or MacOS. Although, setting it up should be pretty straightforward, mostly fixing system paths to match the current OS pattern. The issue may be settled in the future.
+
+### Contributing and Repository Activity
+
+This is only my personal take on Neovim that i've been wonking on a while from time to time, and as it's just a hobby, i wont be going to work on it all the times, but i do intend to keep improving it. The ideia that will follow the subsequent improvements is to make the configuration feel even more like an actual IDE.
+
+- Languages Improvements
+    - The _master_ branch will aim to include support for as many languages as possible, a complete "battle station" to work with any project in any language.
+    - Having a _nvim\_{language}_ branch to each language inside of the _master_ branch, where each one of them will carry a unique language implementation (like Java, Rust, etc.), but will also include utility languages and tools such as XML, YAML, Dockerfiles, and basic front-end support (JS/TS, HTML, CSS...).
+ 
+- Plugins improvements
+    - The addition of new plugins is not guaranteed to happen, at least not plugins that change the current looks and/or mechanics, such as _bufferline.nvim_ or _lualine.nvim_. On the other hand, plugins such as _harpoon.nvim_ might be added since their use is more “optional” and up to each individual user.
+ 
+I won’t be writing a _CONTRIBUTING.md_, since the project is pretty simple, but any contribution is welcome as long as it follows the notes above.
+
+As far as code formatting goes, just stick to the current file style while using stylua with its default settings and it should be enough.
