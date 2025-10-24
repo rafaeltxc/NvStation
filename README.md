@@ -214,7 +214,7 @@ This configuration was written for linux (tested on Arch specifically), and shou
 
 ### Contributing and Repository Activity
 
-This is only my personal take on Neovim that i've been wonking on a while from time to time, and as it's just a hobby, i wont be going to work on it all the times, but i do intend to keep improving it. The ideia that will follow the subsequent improvements is to make the configuration feel even more like an actual IDE.
+This is only my personal take on Neovim that i've been working on a while from time to time, and as it's just a hobby, i wont be going to work on it all the times, but i do intend to keep improving it. The ideia that will follow the subsequent improvements is to make the configuration feel even more like an actual IDE.
 
 - Languages Improvements
     - The _master_ branch will aim to include support for as many languages as possible, a complete "battle station" to work with any project in any language.
