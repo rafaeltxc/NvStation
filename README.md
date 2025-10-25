@@ -182,28 +182,22 @@ _plugins-keymaps.lua_ serves the purpose of storing keymaps that are meant to be
 
 Clone the repo:
 ```
-
-git clone https://github.com/rafaeltxc/neovim.git
-cd neovim
-
+git clone https://github.com/rafaeltxc/NvStation.git
+cd NvStation
 ```
 
 Setup the environment:
 ```bash
-
 # First, you may need to make the setup.sh file executable with:
 chmod +x ./setup.sh
 
 # And then:
 ./setup.sh
-
 ```
 
 Open Neovim:
 ```
-
 nvim
-
 ```
 
 Lazy.nvim will install plugins. Mason will ensure required tools are present. This may take a few minutes.
