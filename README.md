@@ -1,6 +1,6 @@
 ### Overview
 
-Modular, Lazy.nvim-based Neovim configuration tuned for multiple languages, with extra polish for Java development (neotest, jdtls, DAP, etc.).
+Modular, Lazy.nvim-based Neovim configuration designed for multi-language development, with extra polish for LSP, DAP, testing, and formatting.
 
 ### Contents
 
@@ -204,7 +204,7 @@ Lazy.nvim will install plugins. Mason will ensure required tools are present. Th
 
 ### Support
 
-This configuration was written for linux (tested on Arch specifically), and should work fine with any distro. It’s not fully self-sufficient for handling other OSes like Windows or MacOS. Although, setting it up should be pretty straightforward, mostly fixing system paths to match the current OS pattern. The issue may be settled in the future.
+This configuration was written for linux (tested on Arch specifically), and should work fine on most distributions. Although it includes default handling for other operating systems, some adjustments may be required since MacOS and Windows have their own nuances. Setting it up is generally pretty straightforward, adding/fixing system paths to match your current OS.
 
 ### Contributing and Repository Activity
 
