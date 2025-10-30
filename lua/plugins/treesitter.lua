@@ -37,7 +37,7 @@ local M = {
 		highlight = { enable = true },
 		indent = { enable = true },
 		ensure_installed = require("utils.treesitter-ensure-installed"),
-		auto_install = true
+		auto_install = true,
 	},
 
 	config = function(_, opts)

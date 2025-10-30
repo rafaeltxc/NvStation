@@ -13,7 +13,7 @@ source "$LOCAL_POINTER"
 
 # Reset pointer configurations if changed
 if [ "$POINTER" == 1 ]; then
-  cat > "$LOCAL_POINTER" <<EOF
+  cat >"$LOCAL_POINTER" <<EOF
 # DO NOT CHANGE
 POINTER=0
 EOF

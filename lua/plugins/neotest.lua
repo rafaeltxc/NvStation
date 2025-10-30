@@ -12,7 +12,7 @@ local M = {
 		"mfussenegger/nvim-jdtls",
 
 		-- Adapters
-    "atm1020/neotest-jdtls",
+		"atm1020/neotest-jdtls",
 		"nvim-neotest/neotest-jest",
 		"marilari88/neotest-vitest",
 	},

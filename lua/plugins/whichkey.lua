@@ -2,7 +2,7 @@ local M = {
   "folke/which-key.nvim",
   event = "VeryLazy",
   dependencies = {
-    "echasnovski/mini.icons"
+    "echasnovski/mini.icons",
   },
   opts = {
     preset = "modern",
@@ -36,14 +36,13 @@ local M = {
     show_help = true,
     title = false,
   },
-
   config = function(_, opts)
     local pk = require("utils.plugins-keymaps")
     local wk = require("which-key")
 
     wk.setup(opts)
     wk.add(pk)
-  end
+  end,
 }
 
 return M
